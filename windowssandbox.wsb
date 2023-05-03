@@ -1,0 +1,21 @@
+<Configuration>
+    <vGPU>Enable</vGPU>
+    <Networking>Enable</Networking>
+    <AudioInput>Enable</AudioInput>
+    <ClipboardRedirection>Enable</ClipboardRedirection>
+    <MappedFolders>
+    <MappedFolder>
+        <HostFolder>%OneDriveCommercial%\ドキュメント\WindowsSandbox</HostFolder>
+        <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads\sandbox</SandboxFolder>
+        <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+        <HostFolder>%OneDriveCommercial%\ドキュメント\WindowsSandbox\work</HostFolder>
+        <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\work</SandboxFolder>
+        <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>C:\Users\WDAGUtilityAccount\Downloads\sandbox\AppInstall.cmd</Command>
+    </LogonCommand>
+</Configuration>
